@@ -33,12 +33,20 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-10">
           Профессиональная тонировка и бронирование окон зданий. Защищаем от солнца, посторонних взглядов и механических повреждений.
         </p>
-        <a
-          href="#contact"
-          className="inline-block bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300"
-        >
-          Получить расчёт
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="#contact"
+            className="inline-block bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-neutral-200 transition-colors duration-300"
+          >
+            Получить расчёт
+          </a>
+          <a
+            href="tel:+79047143020"
+            className="inline-block border border-white text-white px-8 py-3 uppercase text-sm tracking-wide font-medium hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            +7 (904) 714-30-20
+          </a>
+        </div>
       </div>
     </div>
   );
